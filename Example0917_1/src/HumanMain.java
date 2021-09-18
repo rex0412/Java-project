@@ -12,6 +12,6 @@ public class HumanMain {
 		
 		Human human2 = new Human("À±", "ÇÊ»ó");
 		System.out.println(human2.firstName);
-		System.out.println(human2.secondName);
+		System.out.println(human2.secondName );
 	}
 }
