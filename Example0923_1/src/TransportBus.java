@@ -5,8 +5,8 @@ public class TransportBus {
 	private int passengerNumber = MAX_PASSENGER;
 	private int money; //¼öÀÍ±İ
 	
-	public void takeBus(int i) {
-		this.money = money;
+	public void takeBus(int money) {
+		this.money = this.money + money;
 		passengerNumber = passengerNumber - 1;
 	}
 

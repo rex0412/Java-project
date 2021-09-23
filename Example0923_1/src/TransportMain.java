@@ -10,8 +10,19 @@ public class TransportMain {
 		TransportSubway greenSubway = new TransportSubway();
 		
 		pilsang.infoPrintln();
+		blueBus.infoPrintln();
+		System.out.println();
 		pilsang.getOnBus(blueBus);
 		pilsang.infoPrintln();
+		blueBus.infoPrintln();
+		
+		sukho.getOnBus(blueBus);
+		System.out.println();
+		sukho.infoPrintln();
+		blueBus.infoPrintln();
+		System.out.println();
+		pilsang.getOffBus(blueBus);
+		sukho.getOffBus(blueBus);
 		blueBus.infoPrintln();
 	}
 }
